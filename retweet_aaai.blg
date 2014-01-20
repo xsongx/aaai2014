@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: retweet_aaai.aux
+The style file: aaai.bst
+Database file #1: resonate_tweet.bib
+A bad cross reference---entry "conf/cikm/YangGCTLZS10"
+refers to entry "conf/cikm/2010", which doesn't exist
+A bad cross reference---entry "conf/icwsm/MacskassyM11"
+refers to entry "conf/icwsm/2011", which doesn't exist
+A bad cross reference---entry "conf/wsdm/FengW13"
+refers to entry "conf/wsdm/2013", which doesn't exist
+A bad cross reference---entry "conf/icwsm/PfitznerGS12"
+refers to entry "conf/icwsm/2012", which doesn't exist
+Warning--I didn't find a database entry for "conf/cikm/2010"
+Warning--I didn't find a database entry for "conf/icwsm/2012"
+Warning--I didn't find a database entry for "conf/wsdm/2013"
+Warning--I didn't find a database entry for "conf/icwsm/2011"
+You've used 33 entries,
+            2568 wiz_defined-function locations,
+            807 strings with 12166 characters,
+and the built_in function-call counts, 16613 in all, are:
+= -- 1768
+> -- 750
+< -- 18
++ -- 256
+- -- 255
+* -- 1324
+:= -- 2602
+add.period$ -- 188
+call.type$ -- 33
+change.case$ -- 250
+chr.to.int$ -- 32
+cite$ -- 33
+duplicate$ -- 651
+empty$ -- 1159
+format.name$ -- 312
+if$ -- 3540
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 34
+newline$ -- 220
+num.names$ -- 107
+pop$ -- 211
+preamble$ -- 1
+purify$ -- 284
+quote$ -- 0
+skip$ -- 531
+stack$ -- 0
+substring$ -- 884
+swap$ -- 210
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 260
+warning$ -- 0
+while$ -- 135
+width$ -- 37
+write$ -- 508
+(There were 4 error messages)
