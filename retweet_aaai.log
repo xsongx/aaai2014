@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.6)  19 JAN 2014 00:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.6)  24 JAN 2014 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,112 +274,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
-[2]
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+<fig1.pdf, id=9, 455.7025pt x 270.00874pt>
+File: fig1.pdf Graphic file (type pdf)
+ <use fig1.pdf>
+Package pdftex.def Info: fig1.pdf used on input line 100.
+(pdftex.def)             Requested size: 274.6335pt x 180.6783pt.
 
-Underfull \hbox (badness 1490) in paragraph at lines 158--159
+Overfull \hbox (35.23912pt too wide) in paragraph at lines 100--101
+[][] 
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 101--101
+\OT1/ptm/m/n/10 about with weights $[]$.
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 101--101
+\OT1/ptm/m/n/10 the right sub-graph de-notes opin-ions to-wards two top-
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 101--101
+\OT1/ptm/m/n/10 ics: for topic 23, $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[] [] \O
+T1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; d[] [] \
+OT1/cmr/m/n/10 =
+ []
+
+[2 <./fig1.pdf>]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
+
+Underfull \hbox (badness 1490) in paragraph at lines 166--167
 \OML/cmm/m/it/10 m$ \OT1/ptm/m/n/10 to find top-ics it talks about, which are $
 \OML/cmm/m/it/10 Z[] \OT1/cmr/m/n/10 =
  []
 
-<ego.pdf, id=22, 455.7025pt x 440.64626pt>
+<ego.pdf, id=29, 455.7025pt x 440.64626pt>
 File: ego.pdf Graphic file (type pdf)
  <use ego.pdf>
-Package pdftex.def Info: ego.pdf used on input line 200.
+Package pdftex.def Info: ego.pdf used on input line 208.
 (pdftex.def)             Requested size: 151.76602pt x 144.53963pt.
-
-Underfull \hbox (badness 1953) in paragraph at lines 221--225
-\OT1/ptm/m/n/10 retweet a mes-sage, we try to sim-u-late the sub-jec-tive
+ [3 <./ego.pdf>]
+Underfull \hbox (badness 1325) in paragraph at lines 229--233
+\OT1/ptm/m/n/10 retweets a mes-sage, we try to sim-u-late the sub-jec-tive
  []
 
-[3 <./ego.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 303.
+[4]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 311.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-[4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 330.
-
-Underfull \hbox (badness 1173) in paragraph at lines 381--387
-\OT1/ptm/m/n/10 for which We put all three sub-jec-tive sim-i-lar-i-ties into
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 381--387
-\OT1/ptm/m/n/10 is the low-est(59.12%), the rea-son might lie in a very
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 390--419
-\OT1/ptm/m/n/10 and be-ing ver-i-fied), ``Fol-lower Ac-tive Time''(interaction
- []
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 338.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 423--427
+Underfull \hbox (badness 1173) in paragraph at lines 389--395
+\OT1/ptm/m/n/10 for which We put all three sub-jec-tive sim-i-lar-i-ties into
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 389--395
+\OT1/ptm/m/n/10 is the low-est(59.12%), the rea-son might lie in a very
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 398--427
+\OT1/ptm/m/n/10 and be-ing ver-i-fied), ``Fol-lower Ac-tive Time''(interaction
+ []
+
+[5]
+Underfull \hbox (badness 7777) in paragraph at lines 431--435
 []\OT1/ptm/m/n/10 After com-bin-ing sub-jec-tive sim-i-lar-i-ties, the ac-cu-
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 423--427
+Underfull \hbox (badness 6927) in paragraph at lines 431--435
 \OT1/ptm/m/n/10 racy are chang-ing. Notic-ing that, the most sig-nif-
  []
 
 
-Underfull \hbox (badness 6741) in paragraph at lines 423--427
+Underfull \hbox (badness 6741) in paragraph at lines 431--435
 \OT1/ptm/m/n/10 i-cant improvement(LUO+$\OML/cmm/m/it/10 sim[]$\OT1/ptm/m/n/10 
 , 6.39% im-prove-ment)
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 423--427
-\OT1/ptm/m/n/10 is achieved by adding all three sub-jec-tivie sim-i-lar-i-
+Underfull \hbox (badness 5050) in paragraph at lines 431--435
+\OT1/ptm/m/n/10 is achieved by adding all three sub-jec-tive sim-i-lar-i-
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 423--427
+Underfull \hbox (badness 4391) in paragraph at lines 431--435
 \OT1/ptm/m/n/10 ties, which ver-i-fies our in-tu-ition. Sub-jec-tive sim-i-lar-
 
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 423--427
+Underfull \hbox (badness 1496) in paragraph at lines 431--435
 \OT1/ptm/m/n/10 ity be-tween tweet and fol-low-ers also gives sig-nif-i-cant
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 423--427
+Underfull \hbox (badness 1173) in paragraph at lines 431--435
 \OT1/ptm/m/n/10 improvement(LUO+$\OML/cmm/m/it/10 sim[] []$\OT1/ptm/m/n/10 , 2.
 12% im-prove-ment),
  []
 
-[5] <tweets10.pdf, id=46, 910.40125pt x 597.23125pt>
+<tweets10.pdf, id=52, 910.40125pt x 597.23125pt>
 File: tweets10.pdf Graphic file (type pdf)
  <use tweets10.pdf>
-Package pdftex.def Info: tweets10.pdf used on input line 437.
+Package pdftex.def Info: tweets10.pdf used on input line 445.
 (pdftex.def)             Requested size: 433.62587pt x 252.94963pt.
 
-<text_cloud.pdf, id=47, 794.97pt x 614.295pt>
+<text_cloud.pdf, id=53, 794.97pt x 614.295pt>
 File: text_cloud.pdf Graphic file (type pdf)
  <use text_cloud.pdf>
-Package pdftex.def Info: text_cloud.pdf used on input line 446.
+Package pdftex.def Info: text_cloud.pdf used on input line 454.
 (pdftex.def)             Requested size: 252.93997pt x 158.99118pt.
 
-Overfull \hbox (13.5456pt too wide) in paragraph at lines 446--448
+Overfull \hbox (13.5456pt too wide) in paragraph at lines 454--456
  [][] 
- []
-
-Missing character: There is no â in font ptmri7t!
-Missing character: There is no € in font ptmri7t!
-Missing character: There is no ™ in font ptmri7t!
-
-Underfull \hbox (badness 1308) in paragraph at lines 462--469
-\OT1/ptm/m/n/10 User mod-elling pro-vides re-searchers with in-sights into
  []
 
 [6 <./text_cloud.pdf>] (./retweet_aaai.bbl
@@ -389,13 +408,13 @@ Underfull \hbox (badness 2600) in paragraph at lines 28--33
 
 [7 <./tweets10.pdf>]) [8] (./retweet_aaai.aux) ) 
 Here is how much of TeX's memory you used:
- 2738 strings out of 495049
- 36475 string characters out of 3181741
- 104575 words of memory out of 3000000
- 5836 multiletter control sequences out of 15000+200000
+ 2744 strings out of 495049
+ 36541 string characters out of 3181741
+ 105583 words of memory out of 3000000
+ 5841 multiletter control sequences out of 15000+200000
  30899 words of font info for 72 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,12n,24p,537b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,24p,542b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/
 fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
@@ -414,10 +433,10 @@ bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on retweet_aaai.pdf (8 pages, 502676 bytes).
+Output written on retweet_aaai.pdf (8 pages, 605425 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
