@@ -91,10 +91,10 @@ P \left( u \right) = \lbrace \left( t_{i}, w_{u} \left( t_{i} \right), d_{u,t_{i
 where:
 \begin{itemize}
 \item with respect to the given user $ u $,  for each topic $t_{i} \in T$, its  weight $ w_{u} \left( t_{i} \right)$ represents the distribution of the user's interests on it, with $ \sum_{i=1}^{|T|}w_{u} \left( t_{i} \right)=1 $.
-\item opinion of the user towards topic $t_{i}$ is modeled as a topic-dependent sentiment distribution  $d_{u,t_{i}} \left( o_{i} \right)$ over sentiment valence space $ O $.
+\item opinion of the user towards topic $t_{i}$ is modelled as a topic-dependent sentiment distribution  $d_{u,t_{i}} \left( o_{i} \right)$ over sentiment valence space $ O $.
 \end{itemize}
 \end{definition}
-Figure~\ref{fig0} is a visualized subjective model of a user. 
+Figure~\ref{fig0} is a visualized subjective model of a user in a 100 topics space and a $ [0,8] $ sentiment valence space. 
 \begin{figure}[htb]
 %\centering
 \includegraphics[width=3.8in,height=2.5in]{fig1.pdf}
@@ -375,7 +375,7 @@ Accuracy is our evaluation metric, and the result is listed in Table~\ref{tab3}.
 \hline
 Feature & Accuracy(\%) \\
 \hline
-TF-IDF & 60.85  \\
+TF-IDF & 62.85  \\
 entity & 68.76 \\
 hashtag & 59.12  \\
 $ sim_{sub} \left( m,u \right) $ & 73.88\\
