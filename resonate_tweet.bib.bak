@@ -1037,10 +1037,3 @@ year = {2000}
   year={2010},
   organization={ACM}
 }
-@book{fisher1970statistical,
-  title={Statistical methods for research workers},
-  author={Fisher, Sir Ronald Aylmer and Genetiker, Statistiker and Fisher, Ronald Aylmer and Genetician, Statistician and Britain, Great and Fisher, Ronald Aylmer and G{\'e}n{\'e}ticien, Statisticien},
-  volume={14},
-  year={1970},
-  publisher={Oliver and Boyd Edinburgh}
-}

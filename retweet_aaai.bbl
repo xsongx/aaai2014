@@ -1,28 +1,28 @@
 \begin{thebibliography}{}
 
 \bibitem[\protect\citeauthoryear{Abel \bgroup et al\mbox.\egroup
-  }{2011}]{Abel:2011AUM}
+  }{2011}]{abel2011analyzing}
 Abel, F.; Gao, Q.; Houben, G.-J.; and Tao, K.
 \newblock 2011.
 \newblock Analyzing user modeling on twitter for personalized news
   recommendations.
-\newblock In {\em Proceedings of the 19th international conference on User
-  modeling, adaption, and personalization}, UMAP'11,  1--12.
-\newblock Berlin, Heidelberg: Springer-Verlag.
+\newblock In {\em User Modeling, Adaption and Personalization}. Springer.
+\newblock  1--12.
 
 \bibitem[\protect\citeauthoryear{Blei, Ng, and Jordan}{2003}]{blei2003latent}
-Blei, D.; Ng, A.; and Jordan, M.
+Blei, D.~M.; Ng, A.~Y.; and Jordan, M.~I.
 \newblock 2003.
 \newblock Latent dirichlet allocation.
 \newblock {\em the Journal of machine Learning research} 3:993--1022.
 
-\bibitem[\protect\citeauthoryear{Boyd, Golder, and Lotan}{2010}]{Boyd2010}
+\bibitem[\protect\citeauthoryear{Boyd, Golder, and Lotan}{2010}]{boyd2010tweet}
 Boyd, D.; Golder, S.; and Lotan, G.
 \newblock 2010.
-\newblock {Tweet, Tweet, Retweet: Conversational Aspects of Retweeting on
-  Twitter}.
-\newblock In {\em 2010 43rd Hawaii International Conference on System
-  Sciences}, volume~0,  1--10.
+\newblock Tweet, tweet, retweet: Conversational aspects of retweeting on
+  twitter.
+\newblock In {\em System Sciences (HICSS), 2010 43rd Hawaii International
+  Conference on},  1--10.
+\newblock IEEE.
 
 \bibitem[\protect\citeauthoryear{Cha}{2007}]{cha2007comprehensive}
 Cha, S.-H.
@@ -32,67 +32,74 @@ Cha, S.-H.
 \newblock {\em City} 1(2):1.
 
 \bibitem[\protect\citeauthoryear{Chen \bgroup et al\mbox.\egroup
-  }{2010}]{Chen:2010STE}
+  }{2010}]{chen2010short}
 Chen, J.; Nairn, R.; Nelson, L.; Bernstein, M.; and Chi, E.
 \newblock 2010.
 \newblock Short and tweet: experiments on recommending content from information
   streams.
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
-  Computing Systems}, CHI '10,  1185--1194.
-\newblock New York, NY, USA: ACM.
+  Computing Systems},  1185--1194.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Comarela \bgroup et al\mbox.\egroup
-  }{2012}]{Comarela:2012UFA}
+  }{2012}]{comarela2012understanding}
 Comarela, G.; Crovella, M.; Almeida, V.; and Benevenuto, F.
 \newblock 2012.
 \newblock Understanding factors that affect response rates in twitter.
 \newblock In {\em Proceedings of the 23rd ACM conference on Hypertext and
-  social media}, HT '12,  123--132.
-\newblock New York, NY, USA: ACM.
+  social media},  123--132.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Engbert \bgroup et al\mbox.\egroup
-  }{2007}]{Engbert2007}
-Engbert, K.; Wohlschl\"{a}ger, A.; Thomas, R.; and Haggard, P.
+  }{2007}]{engbert2007agency}
+Engbert, K.; Wohlschl{\"a}ger, A.; Thomas, R.; and Haggard, P.
 \newblock 2007.
-\newblock {Agency, subjective time, and other minds.}
+\newblock Agency, subjective time, and other minds.
 \newblock {\em Journal of Experimental Psychology: Human Perception and
-  Performance} 33(6):1261--1268.
+  Performance} 33(6):1261.
 
-\bibitem[\protect\citeauthoryear{Feng and Wang}{2013}]{conf/wsdm/FengW13}
+\bibitem[\protect\citeauthoryear{Feng and Wang}{2013}]{feng2013retweet}
 Feng, W., and Wang, J.
 \newblock 2013.
 \newblock Retweet or not?: personalized tweet re-ranking.
-\newblock In Leonardi, S.; Panconesi, A.; Ferragina, P.; and Gionis, A., eds.,
-  {\em WSDM},  577--586.
+\newblock In {\em Proceedings of the sixth ACM international conference on Web
+  search and data mining},  577--586.
 \newblock ACM.
 
+\bibitem[\protect\citeauthoryear{Fisher \bgroup et al\mbox.\egroup
+  }{1970}]{fisher1970statistical}
+Fisher, S. R.~A.; Genetiker, S.; Fisher, R.~A.; Genetician, S.; Britain, G.;
+  Fisher, R.~A.; and G{\'e}n{\'e}ticien, S.
+\newblock 1970.
+\newblock {\em Statistical methods for research workers}, volume~14.
+\newblock Oliver and Boyd Edinburgh.
+
 \bibitem[\protect\citeauthoryear{Hannon, Bennett, and
-  Smyth}{2010}]{Hannon:2010}
+  Smyth}{2010}]{hannon2010recommending}
 Hannon, J.; Bennett, M.; and Smyth, B.
 \newblock 2010.
 \newblock Recommending twitter users to follow using content and collaborative
   filtering approaches.
 \newblock In {\em Proceedings of the fourth ACM conference on Recommender
-  systems}, RecSys '10,  199--206.
-\newblock New York, NY, USA: ACM.
+  systems},  199--206.
+\newblock ACM.
 
-\bibitem[\protect\citeauthoryear{Hong and Davison}{2010}]{Hong:2010EST}
+\bibitem[\protect\citeauthoryear{Hong and Davison}{2010}]{hong2010empirical}
 Hong, L., and Davison, B.~D.
 \newblock 2010.
 \newblock Empirical study of topic modeling in twitter.
 \newblock In {\em Proceedings of the First Workshop on Social Media Analytics},
-  SOMA '10,  80--88.
-\newblock New York, NY, USA: ACM.
+   80--88.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Hu \bgroup et al\mbox.\egroup
-  }{2013}]{Hu:2013www}
+  }{2013}]{hu2013unsupervised}
 Hu, X.; Tang, J.; Gao, H.; and Liu, H.
 \newblock 2013.
 \newblock Unsupervised sentiment analysis with emotional signals.
 \newblock In {\em Proceedings of the 22nd international conference on World
-  Wide Web}, WWW '13,  607--618.
-\newblock Republic and Canton of Geneva, Switzerland: International World Wide
-  Web Conferences Steering Committee.
+  Wide Web},  607--618.
+\newblock International World Wide Web Conferences Steering Committee.
 
 \bibitem[\protect\citeauthoryear{Hyman}{2000}]{Hyman2000}
 Hyman, J.
@@ -101,23 +108,22 @@ Hyman, J.
 \newblock {\em Behavioral and Brain Sciences} 23:665--666.
 
 \bibitem[\protect\citeauthoryear{Jenders, Kasneci, and
-  Naumann}{2013}]{Jenders:2013APV}
+  Naumann}{2013}]{jenders2013analyzing}
 Jenders, M.; Kasneci, G.; and Naumann, F.
 \newblock 2013.
 \newblock Analyzing and predicting viral tweets.
 \newblock In {\em Proceedings of the 22nd international conference on World
-  Wide Web companion}, WWW '13 Companion,  657--664.
-\newblock Republic and Canton of Geneva, Switzerland: International World Wide
-  Web Conferences Steering Committee.
+  Wide Web companion},  657--664.
+\newblock International World Wide Web Conferences Steering Committee.
 
 \bibitem[\protect\citeauthoryear{Kwak \bgroup et al\mbox.\egroup
-  }{2010}]{Kwak:2010TSN}
+  }{2010}]{kwak2010twitter}
 Kwak, H.; Lee, C.; Park, H.; and Moon, S.
 \newblock 2010.
 \newblock What is twitter, a social network or a news media?
 \newblock In {\em Proceedings of the 19th international conference on World
-  wide web}, WWW '10,  591--600.
-\newblock New York, NY, USA: ACM.
+  wide web},  591--600.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Liu}{2012}]{liu2012sentiment}
 Liu, B.
@@ -135,38 +141,33 @@ Luo, Z.; Osborne, M.; Tang, J.; and Wang, T.
 \newblock New York, NY, USA: ACM.
 
 \bibitem[\protect\citeauthoryear{Macskassy and
-  Michelson}{2011}]{conf/icwsm/MacskassyM11}
+  Michelson}{2011}]{macskassy2011people}
 Macskassy, S.~A., and Michelson, M.
 \newblock 2011.
 \newblock Why do people retweet? anti-homophily wins the day!
-\newblock In Adamic, L.~A.; Baeza-Yates, R.~A.; and Counts, S., eds., {\em
-  ICWSM}.
-\newblock The AAAI Press.
+\newblock In {\em ICWSM}.
 
 \bibitem[\protect\citeauthoryear{McPherson, Smith-Lovin, and
   Cook}{2001}]{mcpherson2001birds}
 McPherson, M.; Smith-Lovin, L.; and Cook, J.~M.
 \newblock 2001.
 \newblock Birds of a feather: Homophily in social networks.
-\newblock {\em Annual Review of Sociology} 27(1):415--444.
+\newblock {\em Annual review of sociology}  415--444.
+
+\bibitem[\protect\citeauthoryear{Moore and Haggard}{2008}]{moore2008awareness}
+Moore, J., and Haggard, P.
+\newblock 2008.
+\newblock Awareness of action: Inference and prediction.
+\newblock {\em Consciousness and cognition} 17(1):136--144.
 
 \bibitem[\protect\citeauthoryear{Naveed \bgroup et al\mbox.\egroup
-  }{2011a}]{2011:NaveedGKC}
+  }{2011}]{naveed2011searching}
 Naveed, N.; Gottron, T.; Kunegis, J.; and Alhadi, A.~C.
-\newblock 2011a.
-\newblock Bad news travel fast: A content-based analysis of interestingness on
-  twitter.
-\newblock In {\em WebSci '11: Proceedings of the 3rd International Conference
-  on Web Science}.
-
-\bibitem[\protect\citeauthoryear{Naveed \bgroup et al\mbox.\egroup
-  }{2011b}]{Naveed:2011SMC}
-Naveed, N.; Gottron, T.; Kunegis, J.; and Alhadi, A.~C.
-\newblock 2011b.
+\newblock 2011.
 \newblock Searching microblogs: coping with sparsity and document quality.
 \newblock In {\em Proceedings of the 20th ACM international conference on
-  Information and knowledge management}, CIKM '11,  183--188.
-\newblock New York, NY, USA: ACM.
+  Information and knowledge management},  183--188.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Pedregosa \bgroup et al\mbox.\egroup
   }{2011}]{scikit-learn}
@@ -178,45 +179,32 @@ Pedregosa, F.; Varoquaux, G.; Gramfort, A.; Michel, V.; Thirion, B.; Grisel,
 \newblock {\em Journal of Machine Learning Research} 12:2825--2830.
 
 \bibitem[\protect\citeauthoryear{Pennacchiotti and
-  Popescu}{2011}]{Pennacchiotti:icwsm11}
+  Popescu}{2011}]{pennacchiotti2011machine}
 Pennacchiotti, M., and Popescu, A.-M.
 \newblock 2011.
-\newblock {A Machine Learning Approach to Twitter User Classification}.
-\newblock In {\em International AAAI Conference on Weblogs and Social Media}.
+\newblock A machine learning approach to twitter user classification.
+\newblock In {\em ICWSM}.
 
 \bibitem[\protect\citeauthoryear{Petrovic, Osborne, and
-  Lavrenko}{2011}]{Osborne_Lavrenko_2011}
+  Lavrenko}{2011}]{petrovic2011rt}
 Petrovic, S.; Osborne, M.; and Lavrenko, V.
 \newblock 2011.
 \newblock Rt to win! predicting message propagation in twitter.
 \newblock In {\em ICWSM}.
 
 \bibitem[\protect\citeauthoryear{Pfitzner, Garas, and
-  Schweitzer}{2012}]{conf/icwsm/PfitznerGS12}
+  Schweitzer}{2012}]{pfitzner2012emotional}
 Pfitzner, R.; Garas, A.; and Schweitzer, F.
 \newblock 2012.
 \newblock Emotional divergence influences information spreading in twitter.
-\newblock In Breslin, J.~G.; Ellison, N.~B.; Shanahan, J.~G.; and Tufekci, Z.,
-  eds., {\em ICWSM}.
-\newblock The AAAI Press.
+\newblock In {\em ICWSM}.
 
 \bibitem[\protect\citeauthoryear{Ramage, Dumais, and
-  Liebling}{2010}]{RamageEtAl:10}
+  Liebling}{2010}]{ramage10microblogs}
 Ramage, D.; Dumais, S.; and Liebling, D.
 \newblock 2010.
 \newblock Characterizing microblogs with topic models.
-\newblock In {\em Proceedings of the Fourth International AAAI Conference on
-  Weblogs and Social Media}.
-\newblock AAAI.
-
-\bibitem[\protect\citeauthoryear{Starbird and Palen}{2012}]{Starbird:2012RRI}
-Starbird, K., and Palen, L.
-\newblock 2012.
-\newblock (how) will the revolution be retweeted?: information diffusion and
-  the 2011 egyptian uprising.
-\newblock In {\em Proceedings of the ACM 2012 conference on Computer Supported
-  Cooperative Work}, CSCW '12,  7--16.
-\newblock New York, NY, USA: ACM.
+\newblock In {\em ICWSM}.
 
 \bibitem[\protect\citeauthoryear{Stein and
   Wright}{2005}]{stein2005subjectivity}
@@ -226,28 +214,22 @@ Stein, D., and Wright, S.
 \newblock Cambridge University Press.
 
 \bibitem[\protect\citeauthoryear{Suh \bgroup et al\mbox.\egroup
-  }{2010}]{Suh2010}
+  }{2010}]{suh2010want}
 Suh, B.; Hong, L.; Pirolli, P.; and Chi, E.~H.
 \newblock 2010.
-\newblock {Want to be Retweeted? Large Scale Analytics on Factors Impacting
-  Retweet in Twitter Network}.
-\newblock In {\em Proceedings of the IEEE Second International Conference on
-  Social Computing (SocialCom)},  177--184.
-\newblock Minneapolis: IEEE.
+\newblock Want to be retweeted? large scale analytics on factors impacting
+  retweet in twitter network.
+\newblock In {\em Social Computing (SocialCom), 2010 IEEE Second International
+  Conference on},  177--184.
+\newblock IEEE.
 
 \bibitem[\protect\citeauthoryear{Thelwall \bgroup et al\mbox.\egroup
-  }{2010}]{Thelwall:2010SSS}
+  }{2010}]{thelwall2010sentiment}
 Thelwall, M.; Buckley, K.; Paltoglou, G.; Cai, D.; and Kappas, A.
 \newblock 2010.
-\newblock Sentiment in short strength detection informal text.
-\newblock {\em J. Am. Soc. Inf. Sci. Technol.} 61(12):2544--2558.
-
-\bibitem[\protect\citeauthoryear{Thelwall, Buckley, and
-  Paltoglou}{2012}]{Thelwall:2012SSD}
-Thelwall, M.; Buckley, K.; and Paltoglou, G.
-\newblock 2012.
-\newblock Sentiment strength detection for the social web.
-\newblock {\em J. Am. Soc. Inf. Sci. Technol.} 63(1):163--173.
+\newblock Sentiment strength detection in short informal text.
+\newblock {\em Journal of the American Society for Information Science and
+  Technology} 61(12):2544--2558.
 
 \bibitem[\protect\citeauthoryear{Weng \bgroup et al\mbox.\egroup
   }{2010}]{weng2010twitterrank}
@@ -259,21 +241,21 @@ Weng, J.; Lim, E.-P.; Jiang, J.; and He, Q.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Xu \bgroup et al\mbox.\egroup
-  }{2012}]{Xu:2012MUP}
+  }{2012}]{xu2012modeling}
 Xu, Z.; Zhang, Y.; Wu, Y.; and Yang, Q.
 \newblock 2012.
 \newblock Modeling user posting behavior on social media.
 \newblock In {\em Proceedings of the 35th international ACM SIGIR conference on
-  Research and development in information retrieval}, SIGIR '12,  545--554.
-\newblock New York, NY, USA: ACM.
+  Research and development in information retrieval},  545--554.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Yang \bgroup et al\mbox.\egroup
-  }{2010}]{conf/cikm/YangGCTLZS10}
-Yang, Z.; Guo, J.; Cai, K.; Tang, J.; Li, J.; 0007, L.~Z.; and Su, Z.
+  }{2010}]{yang2010understanding}
+Yang, Z.; Guo, J.; Cai, K.; Tang, J.; Li, J.; Zhang, L.; and Su, Z.
 \newblock 2010.
 \newblock Understanding retweeting behaviors in social networks.
-\newblock In Huang, J.; Koudas, N.; Jones, G. J.~F.; Wu, X.; Collins-Thompson,
-  K.; and An, A., eds., {\em CIKM},  1633--1636.
+\newblock In {\em Proceedings of the 19th ACM international conference on
+  Information and knowledge management},  1633--1636.
 \newblock ACM.
 
 \end{thebibliography}
