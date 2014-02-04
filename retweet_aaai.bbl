@@ -37,8 +37,8 @@ Chen, J.; Nairn, R.; Nelson, L.; Bernstein, M.; and Chi, E.
 \newblock 2010.
 \newblock Short and tweet: experiments on recommending content from information
   streams.
-\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
-  Computing Systems},  1185--1194.
+\newblock In {\em Proc. of the SIGCHI Conference on Human Factors in Computing
+  Systems},  1185--1194.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Comarela \bgroup et al\mbox.\egroup
@@ -46,8 +46,8 @@ Chen, J.; Nairn, R.; Nelson, L.; Bernstein, M.; and Chi, E.
 Comarela, G.; Crovella, M.; Almeida, V.; and Benevenuto, F.
 \newblock 2012.
 \newblock Understanding factors that affect response rates in twitter.
-\newblock In {\em Proceedings of the 23rd ACM conference on Hypertext and
-  social media},  123--132.
+\newblock In {\em Proc. of the 23rd ACM conference on Hypertext and social
+  media},  123--132.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Engbert \bgroup et al\mbox.\egroup
@@ -62,8 +62,8 @@ Engbert, K.; Wohlschl{\"a}ger, A.; Thomas, R.; and Haggard, P.
 Feng, W., and Wang, J.
 \newblock 2013.
 \newblock Retweet or not?: personalized tweet re-ranking.
-\newblock In {\em Proceedings of the sixth ACM international conference on Web
-  search and data mining},  577--586.
+\newblock In {\em Proc. of the sixth ACM international conference on Web search
+  and data mining},  577--586.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Fisher \bgroup et al\mbox.\egroup
@@ -80,16 +80,16 @@ Hannon, J.; Bennett, M.; and Smyth, B.
 \newblock 2010.
 \newblock Recommending twitter users to follow using content and collaborative
   filtering approaches.
-\newblock In {\em Proceedings of the fourth ACM conference on Recommender
-  systems},  199--206.
+\newblock In {\em Proc. of the fourth ACM conference on Recommender systems},
+  199--206.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Hong and Davison}{2010}]{hong2010empirical}
 Hong, L., and Davison, B.~D.
 \newblock 2010.
 \newblock Empirical study of topic modeling in twitter.
-\newblock In {\em Proceedings of the First Workshop on Social Media Analytics},
-   80--88.
+\newblock In {\em Proc. of the First Workshop on Social Media Analytics},
+  80--88.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Hu \bgroup et al\mbox.\egroup
@@ -97,8 +97,8 @@ Hong, L., and Davison, B.~D.
 Hu, X.; Tang, J.; Gao, H.; and Liu, H.
 \newblock 2013.
 \newblock Unsupervised sentiment analysis with emotional signals.
-\newblock In {\em Proceedings of the 22nd international conference on World
-  Wide Web},  607--618.
+\newblock In {\em Proc. of the 22nd international conference on World Wide
+  Web},  607--618.
 \newblock International World Wide Web Conferences Steering Committee.
 
 \bibitem[\protect\citeauthoryear{Hyman}{2000}]{Hyman2000}
@@ -112,8 +112,8 @@ Hyman, J.
 Jenders, M.; Kasneci, G.; and Naumann, F.
 \newblock 2013.
 \newblock Analyzing and predicting viral tweets.
-\newblock In {\em Proceedings of the 22nd international conference on World
-  Wide Web companion},  657--664.
+\newblock In {\em Proc. of the 22nd international conference on World Wide Web
+  companion},  657--664.
 \newblock International World Wide Web Conferences Steering Committee.
 
 \bibitem[\protect\citeauthoryear{Kwak \bgroup et al\mbox.\egroup
@@ -121,8 +121,8 @@ Jenders, M.; Kasneci, G.; and Naumann, F.
 Kwak, H.; Lee, C.; Park, H.; and Moon, S.
 \newblock 2010.
 \newblock What is twitter, a social network or a news media?
-\newblock In {\em Proceedings of the 19th international conference on World
-  wide web},  591--600.
+\newblock In {\em Proc. of the 19th international conference on World wide
+  web},  591--600.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Liu}{2012}]{liu2012sentiment}
@@ -136,7 +136,7 @@ Liu, B.
 Luo, Z.; Osborne, M.; Tang, J.; and Wang, T.
 \newblock 2013.
 \newblock Who will retweet me?: finding retweeters in twitter.
-\newblock In {\em Proceedings of the 36th international ACM SIGIR conference on
+\newblock In {\em Proc. of the 36th international ACM SIGIR conference on
   Research and development in information retrieval}, SIGIR '13,  869--872.
 \newblock New York, NY, USA: ACM.
 
@@ -165,8 +165,8 @@ Moore, J., and Haggard, P.
 Naveed, N.; Gottron, T.; Kunegis, J.; and Alhadi, A.~C.
 \newblock 2011.
 \newblock Searching microblogs: coping with sparsity and document quality.
-\newblock In {\em Proceedings of the 20th ACM international conference on
-  Information and knowledge management},  183--188.
+\newblock In {\em Proc. of the 20th ACM international conference on Information
+  and knowledge management},  183--188.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Pedregosa \bgroup et al\mbox.\egroup
@@ -236,8 +236,8 @@ Thelwall, M.; Buckley, K.; Paltoglou, G.; Cai, D.; and Kappas, A.
 Weng, J.; Lim, E.-P.; Jiang, J.; and He, Q.
 \newblock 2010.
 \newblock Twitterrank: finding topic-sensitive influential twitterers.
-\newblock In {\em Proceedings of the third ACM international conference on Web
-  search and data mining},  261--270.
+\newblock In {\em Proc. of the third ACM international conference on Web search
+  and data mining},  261--270.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Xu \bgroup et al\mbox.\egroup
@@ -245,7 +245,7 @@ Weng, J.; Lim, E.-P.; Jiang, J.; and He, Q.
 Xu, Z.; Zhang, Y.; Wu, Y.; and Yang, Q.
 \newblock 2012.
 \newblock Modeling user posting behavior on social media.
-\newblock In {\em Proceedings of the 35th international ACM SIGIR conference on
+\newblock In {\em Proc. of the 35th international ACM SIGIR conference on
   Research and development in information retrieval},  545--554.
 \newblock ACM.
 
@@ -254,8 +254,8 @@ Xu, Z.; Zhang, Y.; Wu, Y.; and Yang, Q.
 Yang, Z.; Guo, J.; Cai, K.; Tang, J.; Li, J.; Zhang, L.; and Su, Z.
 \newblock 2010.
 \newblock Understanding retweeting behaviors in social networks.
-\newblock In {\em Proceedings of the 19th ACM international conference on
-  Information and knowledge management},  1633--1636.
+\newblock In {\em Proc. of the 19th ACM international conference on Information
+  and knowledge management},  1633--1636.
 \newblock ACM.
 
 \end{thebibliography}
