@@ -35,7 +35,7 @@
 \begin{abstract}
 \begin{quote}
 Social media such as Twitter provides researchers with abundant User-Generated Content (UGC) for analyzing users' online behaviors. In this paper, we focus on retweeting behavior, which is one of the key mechanisms of information dissemination on Twitter. 
-To understand the motivation of retweeting behavior, previous studies have committed to modelling interests of users with topics derived from UGC, but few have investigated opinions of users. 
+To understand the motivation of retweeting behavior, previous studies have committed to modelling interests of users with topics derived from UGC, but few have considered opinions of users. 
 Inspired by psychological research, we propose a novel subjectivity model by combining both topics and opinions articulated in UGC. 
 We also put forward a new way to measure the subjectivity similarity between two subjectivity models, and demonstrate that a user is more likely to retweet a message with approximate subjectivity similarity.  
 In the experiments, the subjectivity similarity is verified to be correlated with retweeting behavior by a statistical hypothesis test. 
@@ -65,7 +65,7 @@ Specifically, researchers have tried to model users from four types of informati
 profile features (``\textbf{Who you are}"), tweeting behavior (``\textbf{How you tweet}"), linguistic content (``\textbf{What you tweet}") and social network (``\textbf{Whom you connect}") \cite{pennacchiotti2011machine}. 
 Especially, interests of a user, i.e. topics encapsulated in User-Generated Content (UGC), have been proved consistently dependable for behavior analysis \cite{petrovic2011rt}. 
 However, to our best knowledge, few studies have considered the subjective aspect (``\textbf{what's your opinions}") when modelling a user. 
-In this paper, we propose a novel method to model subjectivity of users (defined as subjectivity model) by combining both the topics and opinions. 
+In this paper, we propose a novel method to model subjectivity of users and tweets as well (defined as subjectivity model) by combining both the topics and opinions. 
 
 Users of social media usually present their opinions by gennerating subjective content on topics they are interested in. 
 The subjectivity of a user is encoded in the UGC on Twitter. 
@@ -107,12 +107,12 @@ where:
 Figure~\ref{fig0} is a visualized subjectivity model of a user in a $ [0,100] $ topic space and a $ [0,8] $ sentiment valence space. 
 \begin{figure}[t]
 %\centering
-\includegraphics[width=3.5in,height=1.8in]{fig1.pdf}
-\caption{Subjectivity model example. The left subgraph denotes interests distribution on topic 23 and 86: $ ( w_{u}\left( 23 \right)=0.43, w_{u}\left( 86 \right)=0.57)  $. The right subgraph denotes opinions towards two topics: $ O_{23}=( d_{u,23} \left( 2 \right)=0.1, d_{u,23} \left( 4 \right)=0.5,d_{u,23} \left( 5 \right)=0.3,d_{u,23} \left( 6 \right)=0.1) $, $ O_{86}=( d_{u,86} \left( 4 \right)=0.66, d_{u,86} \left( 5 \right)=0.34 ) $.}
+\includegraphics[width=3.3in,height=1.2in]{fig1.pdf}
+\caption{Subjectivity model example. The left subgraph denotes interests distribution on topic 2, 32 and 83: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $. The right subgraph denotes opinions towards topics: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $.}
 \label{fig0}
 \end{figure}
 
-Specially, the topics and opinions of a tweet can also be represented by the subjectivity model in the form of  Equation~\ref{usermodel}. Therefore we assume that there is also a subjectivity model for a tweet, and will not differentiate it from the subjectivity model of a user in this paper. 
+Specially, the content of a tweet can also be represented with the subjectivity model because the topics and opinions of a tweet can be modeled as Equation~\ref{usermodel}. 
  
 \subsection{Establishment of Subjectivity Model}
 \label{establishment}
@@ -242,8 +242,17 @@ Opinion in the subjectivity model is treated  as a distribution over sentiment v
 However, values in the sentiment valence space are not independent. 
 They are sequential and represent strength of the sentiment. Illustrated as Table~\ref{tab1}, opinion $ O_{t}^{1} $ is the most negative towards topic $ t $ (100\% of strength value 0), while opinion $ O_{t}^{2} $ (100\% of strength value 7) and $ O_{t}^{3} $ (100\% of strength value 8) are both positive.
 If the cosine similarity measurement is adopted to calculate opinion similarity, all similarities among them are 0.
-In fact $ O_{t}^{2} $ is more similar with $ O_{t}^{3} $ than $O_{t}^{1} $ because they both hold positive opinion and their sentiment distance is much less than $ O_{t}^{1} $. 
-\begin{table}[t]
+In fact $ O_{t}^{2} $ is more similar with $ O_{t}^{3} $ than $O_{t}^{1} $ because they both hold positive opinion and their sentiment distance is much less than $ O_{t}^{1} $.  
+Therefore, opinion similarity can't be calculated simply as the topic distributions. 
+To accurately catch opinion similarity, we propose a novel method by combining both sentiment distance and distribution similarity.
+The opinion similarity between two opinions on the same topic $ t $ can be calculated as: 
+\begin{equation}
+\label{opinionsim}
+sim_{opinion}^{t}(O_{t}^{1},O_{t}^{2})=\dfrac{8-|\sum_{i=0}^{8}d_{i}^{1}v_{i}-\sum_{i=0}^{8}d_{i}^{2}v_{i}|}{8}
+\end{equation}
+where $ d_{i} $ denotes the $ i^{th} $ entry of opinion distribution vector, and $ v_{i} $ denotes corresponding sentiment strength value. 
+\begin{table}[b]
+\setlength{\abovecaptionskip}{0pt}
 \scriptsize
 \centering
 \caption{Illustration of opinion similarity}
@@ -259,15 +268,8 @@ $O_{t}^{2}$ & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 1.0 & 0.0 \\
 $O_{t}^{3}$ & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 1.0 \\
 \hline
 \end{tabular}
-\end{table}  
-Therefore, opinion similarity can't be calculated simply as the topic distributions. 
-To accurately catch opinion similarity, we propose a novel method by combining both sentiment distance and distribution similarity.
-The opinion similarity between two opinions on the same topic $ t $ can be calculated as: 
-\begin{equation}
-\label{opinionsim}
-sim_{opinion}^{t}(O_{t}^{1},O_{t}^{2})=\dfrac{8-|\sum_{i=0}^{8}d_{i}^{1}v_{i}-\sum_{i=0}^{8}d_{i}^{2}v_{i}|}{8}
-\end{equation}
-where $ d_{i} $ denotes the $ i^{th} $ entry of opinion distribution vector, and $ v_{i} $ denotes corresponding sentiment strength value. The similarities of opinions in Table~\ref{tab1} calculated with Equation~\ref{opinionsim} are $ sim(O_{t}^{1},O_{t}^{3})=0 $, $ sim(O_{t}^{2},O_{t}^{3})=7/8 $ and $ sim(O_{t}^{1},O_{t}^{2})=1/8 $, which are consistent with intuitive understanding. 
+\end{table} 
+The similarities of opinions in Table~\ref{tab1} calculated with Equation~\ref{opinionsim} are $ sim(O_{t}^{1},O_{t}^{3})=0 $, $ sim(O_{t}^{2},O_{t}^{3})=7/8 $ and $ sim(O_{t}^{1},O_{t}^{2})=1/8 $, which are consistent with intuitive understanding. 
 
 Accordingly, overall opinion similarity between two subjectivity models can be calculated as normalized similarity of all opinion similarities on common topics. 
 \begin{equation}
@@ -319,6 +321,7 @@ The significance level is conventionally used at 0.01.
 At the same time, we carry out the test by varying the topic number of LDA for topic analysis as 50, 100, 150 and 200 to determine the impact of topic number. 
 The results are listed in Table~\ref{tab2}, The bold-faced entries mean that the \textit{p-value} is lower than significance level $ \alpha = 0.01 $.
 \begin{table}[htb]
+\setlength{\abovecaptionskip}{0pt}
 \scriptsize
 \centering
 \caption{ANOVA results for subjectivity similarities}
@@ -349,6 +352,31 @@ The results are listed in Table~\ref{tab2}, The bold-faced entries mean that the
 Note that for the topic numbers of 100 and 150, all similarities yield \textit{p-values} below $ \alpha $ with \textit{F-ratio} above 1.00. This suggests that the subjectivity similarities could be useful features for modeling retweeting behavior. 
 For the rest experiments, we set the topic number as 100 for LDA model. 
 
+A vivid description about the subjectivity model and its ability in explaining the retweeting behavior can be given with an example. 
+The subjectivity models of a target tweet, its author, and two followers (one retweeter one non-retweeter) are shown as Figure~\ref{fig2}. 
+The tweet talks about topic 14 of the local topic space, and the opinion is neutral. 
+\begin{figure}[t]
+\setlength{\belowcaptionskip}{-5pt} 
+\centering%,bb=0 0 1280 960
+\includegraphics[width=3.0in,height=4.0in]{example.pdf}
+\caption{Retweeting anlysis examples.}
+\label{fig2}
+\end{figure}
+%Figure~\ref{fig3} shows top words of the 14th topic, the tweets of author and followers with word cloud\footnote{We use TagCrowd (\url{http://tagcrowd.com/}) to produce word cloud.}.
+%\begin{figure}[htb]
+%%\setlength{\belowcaptionskip}{-0.2cm} 
+%\centering
+%\includegraphics[width=3.5in,height=2.2in]{text_cloud.pdf}
+%\caption{Word cloud of 14th topic, publisher and followers}
+%\label{fig3}
+%\end{figure}
+%Content of the tweet is:\\
+%\textit{Tweet: ``Sometimes the right person for you was there all along. You just didn't see it because the wrong one was blocking the sight''} \\
+The historical tweets of the author concentrates on the 14th topic, and his opinions are mainly neutral.
+The retweeter has published 195 tweets about two topics (topic 14, 52) and his opinion towards the topic 14 is mainly neutral. 
+While the non-retweeter has also talked about two topics (14th and 56th topic) with 158 tweets, but he is mainly interested in 14th topic and his opinion is positive. 
+Although the non-retweeter is more similar with both the tweet and author in terms of topic, the retweeter is more similar for subjectivity because his opinion is more approximate with both the tweet and author. The example verifies the subjectivity model can help better understanding the retweeting behavior by modelling not only topics but also opinions.
+
 \subsection{Performance Evaluation}
 
 To evaluate the performance of retweeting behavior prediction, we firstly compare our model against other topic-based models including TF-IDF model (modelling user interests with bag-of-words), entity-based model (modelling user interests with entities extracted from the UGC) and hashtag-based model(modelling user interests with hashtags used in the UGC) \cite{abel2011analyzing}. The cosine distance is used as similarity measurement for these models as topic similarity in our model for comparison.
@@ -358,6 +386,7 @@ Therefore, our model is also compared with the method of Luo \emph{et al.}~\shor
 In their work they use four feature families: ``Retweet History''(follower who have retweeted a user before is likely to retweet again), ``Follower Status''(the number of tweets, followers, friends, listed times and verified state), ``Follower Active Time''(interaction with other users) and ``Follower Interests''(TF-IDF bag-of-words model for user interests). 
 Based on the results of Comparative experiment, we also carry out combining experiments to demonstrate that performance of their method can be improved by using our model instead of bag-of-words model. 
 \begin{table}[h]
+\setlength{\abovecaptionskip}{0pt}
 \scriptsize
 \centering
 \caption{Accuracy performance. A significant improvement over baseline with $ \ast $ and LUO' model with $ \ddagger $ ($p < 0.05$).}
@@ -381,7 +410,7 @@ $ sim_{all}  $ & \textbf{75.64}   $\ast \quad \ddagger $ & LUO+$ sim_{all}  $ & 
 The evaluation dataset is randomly divided into five parts for 5-fold cross-validation. 
 The logistic regression classifier of Scikit-learn machine learning package \cite{scikit-learn} is used for training and testing.
 It is noted that followers who previously had a history of retweeting might do this in the future, so we set a baseline (marked as ``RB''), which simply predicts users who have retweeted the author previously as the retweeters of target tweet. 
-The accuracy is taken as our evaluation metric, and the results are listed in Table~\ref{tab3}, in which the compariative results are listed in the upper part and the combining results in the lower part.
+The accuracy is taken as our evaluation metric, and the results are listed in Table~\ref{tab3}, in which the compariative results are listed in the left part and the combining results in the right part.
 
 Firstly, all models except the hashtag-based model outperform the baseline (60.85\%) significantly. While for hashtag-based model, its accuracy is the lowest (59.12\%), the reason might lie in a very low usage of hashtag in a user's tweets. 
 
@@ -394,38 +423,33 @@ Finally, in the combining evaluation experiment, for which the TF-TDF model of `
 But noticing that, the most significant improvement(LUO+$ sim_{all}  $, 6.39\% improvement) is achieved by combining with all subjectivity similarities. 
 
 The results above show that subjectivity model can better help predicting retweeting behavior than other models and can be regarded as a better way to model the users for retweeting behavior analysis. 
-
-
 %\subsection{Case Study}
 %\label{example}
 %In this section we give a vivid description about the subjectivity model and its ability in explaining the retweeting behavior with an example. 
-%The topic and opinion of one target tweet, subjectivity models for its author, and two followers (one retweet it while the other does not) are shown as Figure~\ref{fig2}. 
-%The right part of each sub-figure illustrates topic distribution and the left part illustrates opinion distribution. 
-%It is clear that the tweet talks about the 14th topic of the local topic space. 
-%\begin{figure*}[htb]
+%The subjectivity models of one target tweet, its author, and two followers (one retweeter one non-retweeter) are shown as Figure~\ref{fig2}. 
+%
+%It is clear that the tweet talks about the 14th topic of the local topic space, and the opinion is neutral. 
+%\begin{figure}[t]
 %%\setlength{\belowcaptionskip}{-0.2cm} 
 %\centering%,bb=0 0 1280 960
-%\includegraphics[width=6.0in,height=3.5in]{tweets10.pdf}
-%%\vspace{-4em}
+%\includegraphics[width=3.2in,height=5.0in]{example.pdf}
 %\caption{subjectivity model examples.}
 %\label{fig2}
-%\end{figure*}
-%Figure~\ref{fig3} shows top words of the 14th topic, the tweets of author and followers with word cloud\footnote{We use TagCrowd (\url{http://tagcrowd.com/}) to produce word cloud.}.
-%\begin{figure}[htb]
-%%\setlength{\belowcaptionskip}{-0.2cm} 
-%\centering
-%\includegraphics[width=3.5in,height=2.2in]{text_cloud.pdf}
-%%\vspace{-3em}
-%\caption{Word cloud of 14th topic, publisher and followers}
-%\label{fig3}
 %\end{figure}
-%Content of the tweet is:\\
-%\textit{Tweet: ``Sometimes the right person for you was there all along. You just didn't see it because the wrong one was blocking the sight''} \\
-%The topic of this tweet is about ``love between people'' and the opinion is neutral, which is in accordance with the 14th topic word cloud in Figure~\ref{fig3} and sub-figure of tweet in Firgure~\ref{fig2}.
-%The author concentrates on the 14th topic, and his opinions are mainly neutral (as Figure~\ref{fig2},~\ref{fig3} show).
-%As for two followers, the ``retweeter'', has published tweets about two topics (the 14th and 52nd topic) uniformly and his opinions towards the two topics are mainly neutral.
-%While the ``unretweeter'', has also talked about two topics (14th and 56th topic), but he is mainly interested in 14th topic and has positive opinion.
-%Although two followers have same interest (the 14th topic), their different opinions elicit their different decisions, which verify the subjectivity model can help better understand the retweeting motivation by modelling not only topics but opinions.
+%%Figure~\ref{fig3} shows top words of the 14th topic, the tweets of author and followers with word cloud\footnote{We use TagCrowd (\url{http://tagcrowd.com/}) to produce word cloud.}.
+%%\begin{figure}[htb]
+%%%\setlength{\belowcaptionskip}{-0.2cm} 
+%%\centering
+%%\includegraphics[width=3.5in,height=2.2in]{text_cloud.pdf}
+%%\caption{Word cloud of 14th topic, publisher and followers}
+%%\label{fig3}
+%%\end{figure}
+%%Content of the tweet is:\\
+%%\textit{Tweet: ``Sometimes the right person for you was there all along. You just didn't see it because the wrong one was blocking the sight''} \\
+%The author concentrates on the 14th topic, and his opinions are mainly neutral.
+%As for two followers, the retweeter, has published tweets about two topics (the 14th and 52nd topic) uniformly and his opinions towards the two topics are mainly neutral. 
+%While the non-retweeter, has also talked about two topics (14th and 56th topic), but he is mainly interested in 14th topic and has positive opinion. 
+%Although two followers have common interest (the 14th topic), their different opinions elicit their different decisions, which verify the subjectivity model can help better understand the retweeting behavior by modelling not only topics but opinions.
 
 \section{Related Work}
 \label{relatedwork}
@@ -439,7 +463,7 @@ Pennacchiotti and Popescu~\shortcite{pennacchiotti2011machine} proposed a most c
 A large body of studies have analyzed characteristics of retweeting \cite{macskassy2011people,Luo:2013RMF}, examining factors that lead to increased retweetability \cite{suh2010want,comarela2012understanding} and designing models to estimate the probability of being retweeted \cite{petrovic2011rt,jenders2013analyzing,pfitzner2012emotional}. However, all of the above works neglect the subjectivity of users, which is the underlying reason for the decision-making of subjective initiative individuals. We have fisrtly proposed a novel subjectivity model for retweeting behavior analysis. 
 
 \section{Conclusion}
-In this paper, from the point of motivation, we postulate that the online behaviors of social media users are affected by their subjectivity. Therefore, a novel subjectivity model has been proposed by combining topics and opinions to model the subjectivity of users. Also an algorithm has been designed to establish the subjectivity model. To make the algorithm more efficiently, only the users of an ego network are considered and a local topic space is proposed according to the homophily principle. A novel subjectivity similarity measurement has been put forward in terms of topic simlarity and opinion similarity. The subjectivity model is applied to the retweeting analysis with three subjecivity similarities among tweets, authors and followers. 
+Motivated by the psychological research, this paper postulates that the online behaviors of social media users are affected by their subjectivity. Therefore, a novel subjectivity model has been proposed by combining topics and opinions to model the subjectivity of the users and tweets as well. Also an algorithm has been designed to establish the subjectivity model. To make the algorithm more efficiently, only the users of an ego network are considered and a local topic space is proposed according to the homophily principle. A novel subjectivity similarity measurement is put forward in terms of topic simlarity and opinion similarity. The subjectivity model has been applied to the retweeting analysis with three subjecivity similarities among tweets, authors and followers. 
 Experiment results demonstrate the effectiveness of the proposed model in the retweeting analysis problem and show that subjectivity model is able to reach better understanding of retweeting behavior. 
 
 In the future, we will apply the subjectivity model to other social network analysis task such as link prediction and friend recommendation. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.6)  5 FEB 2014 00:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.6)  5 FEB 2014 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -273,17 +273,12 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
 
-<fig1.pdf, id=8, 392.46625pt x 213.79875pt>
+<fig1.pdf, id=8, 270.00874pt x 150.5625pt>
 File: fig1.pdf Graphic file (type pdf)
  <use fig1.pdf>
 Package pdftex.def Info: fig1.pdf used on input line 110.
-(pdftex.def)             Requested size: 252.95013pt x 130.08427pt.
-
-Overfull \hbox (13.55576pt too wide) in paragraph at lines 110--111
-[][] 
- []
-
-[2 <./fig1.pdf>]
+(pdftex.def)             Requested size: 238.49834pt x 86.72667pt.
+ [2 <./fig1.pdf>]
 Underfull \hbox (badness 2393) in paragraph at lines 161--166
  \OT1/ptm/b/n/10 Con-cret-ing Sub-jec-tiv-ity Model \OT1/ptm/m/n/10 As Def-i-ni
 -tion 2[] de-
@@ -316,73 +311,74 @@ Underfull \hbox (badness 1057) in paragraph at lines 168--169
 /10 Z[] \OT1/cmr/m/n/10 =
  []
 
-<ego.pdf, id=26, 279.0425pt x 204.765pt>
+<ego.pdf, id=28, 279.0425pt x 204.765pt>
 File: ego.pdf Graphic file (type pdf)
  <use ego.pdf>
 Package pdftex.def Info: ego.pdf used on input line 203.
 (pdftex.def)             Requested size: 108.4046pt x 79.4987pt.
  [3 <./ego.pdf>]
-Underfull \hbox (badness 1584) in paragraph at lines 293--299
+Underfull \hbox (badness 1584) in paragraph at lines 294--300
 \OT1/ptm/m/n/10 The mo-ti-va-tion of retweet-ing be-hav-ior is com-pli-cated,
  []
 
 [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 331.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 333.
+ <example.pdf, id=46, 170.6375pt x 418.56375pt>
+File: example.pdf Graphic file (type pdf)
+ <use example.pdf>
+Package pdftex.def Info: example.pdf used on input line 361.
+(pdftex.def)             Requested size: 216.82436pt x 289.07753pt.
 
-Overfull \hbox (6.34863pt too wide) in paragraph at lines 366--380
+Overfull \hbox (6.34863pt too wide) in paragraph at lines 394--408
  [][] 
  []
 
-[5]
-Underfull \hbox (badness 1314) in paragraph at lines 394--396
+[5 <./example.pdf>]
+Underfull \hbox (badness 1314) in paragraph at lines 422--424
 []\OT1/ptm/m/n/10 Finally, in the com-bin-ing eval-u-a-tion ex-per-i-ment, for
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 394--396
+Underfull \hbox (badness 3536) in paragraph at lines 422--424
 \OT1/ptm/m/n/10 gives a sig-nif-i-cant im-prove-ment (LUO+$\OML/cmm/m/it/10 sim
 [] []$\OT1/ptm/m/n/10 ,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./retweet_aaai.bbl
+(./retweet_aaai.bbl [6]
 Underfull \hbox (badness 2600) in paragraph at lines 28--33
 []\OT1/ptm/m/n/10 Cha, S.-H.  2007.  Com-pre-hen-sive sur-vey on dis-
  []
 
-[6]) [7] (./retweet_aaai.aux) ) 
+) [7] (./retweet_aaai.aux) ) 
 Here is how much of TeX's memory you used:
- 2662 strings out of 495049
- 35580 string characters out of 3181741
- 103587 words of memory out of 3000000
- 5778 multiletter control sequences out of 15000+200000
+ 2668 strings out of 495049
+ 35660 string characters out of 3181741
+ 102595 words of memory out of 3000000
+ 5783 multiletter control sequences out of 15000+200000
  24865 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,12n,24p,829b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
-ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on retweet_aaai.pdf (7 pages, 316610 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on retweet_aaai.pdf (7 pages, 515243 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
