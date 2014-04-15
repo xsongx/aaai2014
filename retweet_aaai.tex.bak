@@ -353,7 +353,7 @@ Note that for the topic numbers of 100 and 150, all similarities yield \textit{p
 For the rest experiments, we set the topic number as 100 for LDA model. 
 
 A vivid description about the subjectivity model and its ability in explaining the retweeting behavior can be given with an example. 
-The subjectivity models of a target tweet, its author, and two followers (one retweeter one non-retweeter) are shown as Figure~\ref{fig2}. 
+The subjectivity models of a target tweet, its author, and two followers (one retweeter, one non-retweeter) are shown as Figure~\ref{fig2}. 
 The tweet talks about topic 14 of the local topic space, and the opinion is neutral. 
 \begin{figure}[t]
 \setlength{\belowcaptionskip}{-5pt} 
@@ -372,10 +372,10 @@ The tweet talks about topic 14 of the local topic space, and the opinion is neut
 %\end{figure}
 %Content of the tweet is:\\
 %\textit{Tweet: ``Sometimes the right person for you was there all along. You just didn't see it because the wrong one was blocking the sight''} \\
-The historical tweets of the author concentrates on the 14th topic, and his opinions are mainly neutral.
+The historical tweets of the author concentrate on the topic 14, and his opinions are mainly neutral.
 The retweeter has published 195 tweets about two topics (topic 14, 52) and his opinion towards the topic 14 is mainly neutral. 
-While the non-retweeter has also talked about two topics (14th and 56th topic) with 158 tweets, but he is mainly interested in 14th topic and his opinion is positive. 
-Although the non-retweeter is more similar with both the tweet and author in terms of topic, the retweeter is more similar for subjectivity because his opinion is more approximate with both the tweet and author. The example verifies the subjectivity model can help better understanding the retweeting behavior by modelling not only topics but also opinions.
+While the non-retweeter has also talked about two topics (14th and 56th topic) with 158 tweets, but he is mainly interested in 14th topic, and his opinion is positive. 
+Although the non-retweeter is more similar with both the tweet and author in terms of topic, the retweeter is more similar for subjectivity because his opinion is more approximate with both the tweet and author. The example verifies that the subjectivity model can help better understanding the retweeting behavior by modelling not only topics but also opinions.
 
 \subsection{Performance Evaluation}
 

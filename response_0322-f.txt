@@ -1,0 +1,20 @@
+We appreciate the detailed comments by the reviewers. Here are our responses:
+
+Responses to Review 1:
+
+1. We agree that the motivation of the research need to be more clearly explained.The motivation of this research is to develop a novel approach to investigate why one diffuses information. Specifically, we adopt the topic model and sentiment analysis techniques in NLP to find latent clues such as topics and opinions from user-generated contents, and use machine learning algorithms to train and predict on the data collected from Twitter. The proposed method can be applied not only to social media, but also to other resources such as user comments to mine the interests and opinions of users. Thus, the work is expected to be impactful or of general interest to the AI community. We will further clarify the motivation more clearly in the revision of the manuscript.
+2.For the problems of clarity, We will carefully revise the manuscript to make it clear.
+
+Responses to Review 2:
+
+1.We agree that the explanation of the subjectivity similarity definition need to be revised to make it more clear in the revision. We will fix the problems and clarify some details as indicated by the reviewer.  
+Specifically, in (6), theta_m and theta_u are parameters learnt by LDA model representing topic distributions of users m and u;
+In (7), d_i is the i^{th} entry of opinion distribution, and v_i denotes corresponding sentiment strength value, in the example of opinion distribution O^2, d_7=1.0, v_7=7;
+ (9) is the general definition of subjectivity similarity among tweets, authors and followers, where u and m may represent tweets, or authors, or followers;
+In the retweeting analysis paragraph, sim_{sub} with different parameters represent different subjectivity similarity between tweet and author, between tweet and a follower, and between author and a follower;
+sim_all represents all three subjectivity similarities used in the classifier.
+
+2. All the spelling errors will be corrected in the revision.
+
+Responses to Review 3:
+Sentiment of tweets is determined not only by normal words but also by various special characteristics of Twitter languages such as emoticon, capitalized words, repeated letters and exclamation mark, etc. Those features cannot be easily modeled by a probabilistic distribution. TSM tries to learn a general word-sentiment distribution to model the sentiment of blogs, which may not work well for tweets. However, rule-based sentiment analysis methods can catch some subtle sentiment of tweets by transforming these characteristics into rules. Therefore, we construct our model by combining the results of a LDA topic model and a rule-based sentiment classifier. TSM is a major approach that is closest to our work, we will cite and review it in our revision. And We will pursue it in the near future to carry out series of experiments to compare it with our method.

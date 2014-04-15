@@ -1,0 +1,19 @@
+We are very excited to have been given the opportunity to respond to reviews of our manuscript, We carefully considered comments offered by the three reviewers. We want to extend our appreciation for taking the time and effort necessary to provide such insightful guidance. Herein, we respond and explain how we revise the paper based on those comments and recommendations.
+Responses to the comments of Reviewer #1 
+1. [I don't see it as being impactful or of general interest to the AI community.] 
+ Response: We apologize for the confusion caused because we haven't state the motivation and significance of our work clearly. In fact, we have investigated the reason why one diffuses information by modelling the subjectivity of a person with state-of-the-art AI researches. Specifically, we adopt topic model and sentiment analysis techniques of NLP to find latent clues such as topics and opinions from user-generated content, and use machine learning algorithms to train and predict based on the data we collect from Twitter. But the data may not constraint to social media, the model we have proposed can be adapted to other resources which can be used to mine the interests and opinions of users. The comment is very valuable and reminds us to make it more clear in the revision of the paper. 
+2. [The clarity of the paper had some problems.]
+Response:Thank you very much for such insightful comment and the problems are fixed during the revision of our paper. 
+
+Responses to the comments of Reviewer #2 
+[several problems in the section where the subjectivity similarity is presented and defined.]
+Response: Thank you for listing all the problems. In the revision, we have fixed all of them, and answered all the questions in our paper. 
+In the topic similarity in (6), theta_m and theta_u are parameters learnt by LDA model representing topic distributions of users m and u;
+In opinion similarity (7), d_i is the i^{th} entry of opinion distribution vector, and v_i denotes corresponding sentiment strength value, in the example of opinion distribution O^2, d_7=1.0, v_7=7;
+The subjectivity similarity (9) is the general definition of subjectivity similarity among tweets, authors and followers, where parameters u and m may represent tweets, or authors, or followers;
+In the Retweeting analysis paragraph, the sim_{sub} functions with  parameters represent subjectivity similarity between tweet and author, between tweet and a follower, and between author and a follower.
+
+Responses to the comments of Reviewer #3
+[the paper lacks comparison with Topic Sentiment Mixture (TSM) models.]
+Response:This is a great point, We have cited this model in the related works, which is a very interesting work on sentiment analysis, and proved very useful especially in blogsphere. However, we didn't clearly clarify the diffrent between our model and TSM.
+We will refine our paper to make the comparison more clear as follow.Sentiment analysis of tweets is more complicated than blogs or reviews. While TSM model try to train a general word-sentiment distribution model to determine the sentiment toward a topic, sentiment of a tweet is determined not only by normal words but also by the special characteristics of Twitter language such as emoticon, capitalized words，repeated letters, exclamation mark, which can not be easily modeled with probabilistic distribution, but can be modeled by transforming them to rules as Sentistrength has done. So we think that our method can better adapt to Twitter language and output more precise sentiment of a tweet. Besides, we want to get a more fine-grained sentiment to reflect the subtle opinion similarity, and the TSM model can only give relative coverage of the neurtral, positive, and negative opinions. But it is a good suggestion for our future research to realize our model in a mixture way as TSM by combining the characteristics of tweets, and we will compare such a model with TSM model.

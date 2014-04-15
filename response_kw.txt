@@ -1,0 +1,54 @@
+Thank you for your detailed comments. We would like to response to some questions raised in the reviews as follows.
+
+Responses to the comments in Review 1:
+We agree that the work could be motivated better. The major challenge tackled in the paper is to diffuse Web information (from Twitter) by modelling the subjectivity of a user with state-of-the-art technologies from natural language processing (NLP). Specifically, we adopt topic model and sentiment analysis techniques in NLP to find latent clues such as topics and opinions from user-generated content, and use machine learning algorithms to train and predict on the data collected from Twitter. But the data may not constraint to social media. Actually, the model we have proposed can be adapted to other data resources and can be used in mining the interests and opinions of users.
+We will improve the presentation following your comments.
+
+Responses to the comments in Review 2:
+We have fixed all of them, and answered all the questions about the similarity in the revision 
+
+Responses to the comments in Review 3:
+TSM cited in the paper is a major approach that is closest to our work.
+The TSM paper focuses on blogs but sentiment analysis of tweets is more challenging than that of blogs. While TSM try to train a general word-sentiment distribution model to determine the sentiment, sentiment of tweets is determined not only by normal words but also by the special characteristics of Twitter languages such as emoticon, capitalized words, repeated letters and exclamation mark, etc. They can not be easily modelled with probabilistic
+distribution, but can be modelled by transforming them to rules as Sentistrength has done. So we think that our method is more suitable for Twitter and can catch more precise sentiment of tweets. Besides, we want to get a more fine-grained sentiment to reflect the subtle opinion similarity, but TSM model can only give relative coverage of neutral, positive, and negative opinions. It is an interesting idea to construct our model in the way as TSM by 
+combining the characteristics of tweets, and we will compare such a model with TSM model. We will pursue it in the near future.
+
+
+wrl：
+
+
+We appreciate the thorough reviews be the reviewers. Here are our responses:  
+
+Responses to the comments of Reviewer #1
+1. [I don't see it as being impactful or of general interest to the AI
+community.]
+Response: Thanks for your comments. The motivation of this research is develop a new AI approach to investigate why one diffuses. Specifically, we adopt the topic model and sentiment analysis techniques in NLP to find latent clues such as topics and opinions from user-generated contents, and use machine learning algorithms to train and predict on the data collected from Twitter. Obviously, this method we have proposed can be applied not only to social media, but also to  other resources such as to mine the interests and opinions of users. These are impactful or of general interest to the AI community. We will further clarify the motivation in the revision of the manuscript.
+2. [The clarity of the paper had some problems.]
+Response:  We will carefully revise the manuscript to make it clear.
+Responses to the comments of Reviewer #2
+1.[problems in the section where the subjectivity similarity is
+presented and defined.]
+Response:We have fixed all the problems listed by the reviewer about the similarity in the revision.
+2.[minor comments for spelling errors]
+Response: Thank you for pointing out all the spelling errors, which will be corrected in the revision.
+Responses to the comments of Reviewer #3
+[the paper lacks comparison with Topic Sentiment Mixture (TSM) models.]
+Response: This is a great point, we have cited TSM model in the related
+works, which is a very interesting work on topic related sentiment
+analysis in blogsphere. However, there is some difference between our
+work and TSM. We will refine our paper to make the comparison more clear
+as follows. Sentiment analysis of tweets is more complicated than blogs.
+While TSM trie to train a general word-sentiment distribution model to
+determine the sentiment, sentiment of tweets is determined not only by
+normal words but also by the special characteristics of Twitter
+languages such as emoticon, capitalized words, repeated letters and
+exclamation mark, which can not be easily modeled with a probabilistic
+distribution, but can be modeled by transforming them to rules as
+Sentistrength has done. Thus,we think that our method can better adapt to
+Twitter and output more precise sentiment of tweets. Besides, we want to
+get a more fine-grained sentiment to reflect the subtle opinion
+similarity, and the TSM model can only give relative coverage of the
+neutral, positive, and negative opinions. But it is good suggestion for
+our future research to construct our model in the way as TSM by
+combining the characteristics of tweets, and we will compare such a
+model with TSM model.

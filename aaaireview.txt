@@ -1,0 +1,145 @@
+----------------------- REVIEW 1 ---------------------
+PAPER: 714
+TITLE: From Interests to Opinions: Modelling Subjectivity for Retweeting Analysis on Twitter
+AUTHORS: (anonymous)
+
+1. Technical Quality: 3 (adequate, not a basis for accepting or rejecting the paper)
+2. Experimental analysis: 4 (positive, a factor in accepting the paper)
+3. Formal analysis: 3 (adequate, not a basis for accepting or rejecting the paper)
+4. Clarity/presentation: 2 (problematic, a factor in rejecting the paper)
+5. Novelty/innovation of question addressed: 4 (positive, a factor in accepting the paper)
+6. Novelty/innovation of application: 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+7. Novelty/innovation with respect to aspects of human-level   intelligence, complex cognition, or similar topics (Cognitive  Systems): 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+8. Novelty/innovation of solution proposed: 4 (positive, a factor in accepting the paper)
+9. Breadth of interest to the AI community: 2 (problematic, a factor in rejecting the paper)
+10. Potential for impact to practical applications: 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+
+----------- QUALITY JUSTIFICATION -----------
+The evaluation of the work presented in the paper was reasonably well done, looking at previously published approaches and providing a comparison.
+
+The clarity of the paper had some problems. The motivation makes general claims that are not illustrated (e.g. 'social media such as twitter provides researchers with abundant UGC for analyzing users' online behaviours. In this paper we focus on retweeting behaviour' This is circuitous as the UGC is providing data for analyzing UGC, not online behaviour per se. "making it possible for messages to spread virally in a matter of minutes" (no citation). The concept of 'subjectivity' is discussed long before it is defined on the second page. "users received thousands of tweets on different topics every day" really? This isn't supported in the paper.
+
+"users of social media usually present their opinions by generating subjective content on the topics they are interested on" this sounds like opinion and 'subjectivity' are different things. 
+
+"the subjective initiative nature of human determines that his behaviour patter is subjectivity driven" - this seems tautological.
+
+There is little discussion in this paper about behaviours in twitter that might be problematic for this project. For example, people follow brands. 
+
+On page 4, equ (9) uses lambda to provide weights to the topic and the opinion similarities. It is not clear what the intuition is here. Does this mean that we may find weights for a user indicating that they are more or less subjective regarding a topic? This value is learned (as described on page 5). What were the learned values? These might be set with topic or opinion weighted very low which might be an insightful result.
+
+----------- NOVELTY/INNOVATION JUSTIFICATION -----------
+While this work is reasonably interesting, I don't see it as being impactful in the AI community in terms of question 7 (human-level intelligence).
+
+----------- IMPACT JUSTIFICATION -----------
+This paper might be of interest to the social media community (e.g. ICWSM) but I don't see it as innovative or of general interest to the AI community.
+
+----------- SUMMARY OF REVIEW FOR AUTHORS -----------
+This paper describes a method for predicting retweeting behaviour based on a model that combines the topic and the opinion of the tweet and its relationship with the topic and opinion distributions of the potential retweeting consumer of the tweet. This is an interesting investigation and provides some insight into the nature of homophily. I suspect the paper would be of greater interest to the social media community (e.g. ICWSM).
+
+The clarity of the paper had some problems. The motivation makes general claims that are not illustrated (e.g. 'social media such as twitter provides researchers with abundant UGC for analyzing users' online behaviours. In this paper we focus on retweeting behaviour' This is circuitous as the UGC is providing data for analyzing UGC, not online behaviour per se.
+
+"making it possible for messages to spread virally in a matter of minutes" (no citation).
+
+The concept of 'subjectivity' is discussed long before it is defined on the second page.
+
+"users received thousands of tweets on different topics every day" really? This isn't supported in the paper.
+
+"users of social media usually present their opinions by generating subjective content on the topics they are interested on" this sounds like opinion and 'subjectivity' are different things. 
+
+"the subjective initiative nature of human determines that his behaviour patter is subjectivity driven" - this seems tautological.
+
+There is little discussion in this paper about behaviours in twitter that might be problematic for this project. For example, people follow brands. 
+
+On page 4, eq (9) uses lambda to provide weights to the topic and the opinion similarities. It is not clear what the intuition is here. Does this mean that we may find weights for a user indicating that they are more or less subjective regarding a topic? This value is learned (as described on page 5). What were the learned values? These might be set with topic or opinion weighted very low which might be an insightful result.
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 714
+TITLE: From Interests to Opinions: Modelling Subjectivity for Retweeting Analysis on Twitter
+AUTHORS: (anonymous)
+
+1. Technical Quality: 2 (problematic, a factor in rejecting the paper)
+2. Experimental analysis: 3 (Adequate, not a basis for accepting or rejecting the paper (or not applicable))
+3. Formal analysis: 3 (adequate, not a basis for accepting or rejecting the paper)
+4. Clarity/presentation: 2 (problematic, a factor in rejecting the paper)
+5. Novelty/innovation of question addressed: 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+6. Novelty/innovation of application: 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+7. Novelty/innovation with respect to aspects of human-level   intelligence, complex cognition, or similar topics (Cognitive  Systems): 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+8. Novelty/innovation of solution proposed: 4 (positive, a factor in accepting the paper)
+9. Breadth of interest to the AI community: 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+10. Potential for impact to practical applications: 3 (adequate, not a basis for accepting or rejecting the paper (or not applicable))
+
+----------- QUALITY JUSTIFICATION -----------
+The idea addressed by the paper is interesting, but the paper has several problems mainly in the section of similarity definitions.
+	It could be a nice paper after the correction.
+
+----------- NOVELTY/INNOVATION JUSTIFICATION -----------
+The problem is already studied in literature and previous works are reported in the paper. However, the paper proposed a new way to consider 
+  subjectivity of users by combining together topics and opinions.
+
+----------- IMPACT JUSTIFICATION -----------
+The topic is relevant to computational social science.
+
+----------- SUMMARY OF REVIEW FOR AUTHORS -----------
+The paper studies the subjectivity of users in social media like Twitter. Motivated by previous researches also from the area of psychology, 
+  the authors propose a new framework used to predict if a tweet will be retweeded by a user.
+  The authors present and motivate the model also using an interesting empirical evaluation. They also compare their proposal with 
+  different frameworks.
+  
+  The model seems sound and interesting but the technical quality of the paper is compromised due to several problems in the section where 
+  the authors present and define the subjectivity similarity. The problems are presented in the following list.
+  
+  pag. 4 in the Topic Similarity paragraph: you define the topic similarity in (6). 
+		Please, add m and n as input of the function, like sim_{topic}(m,n)=...
+		Are theta_m and theta_u vectors of values? How do you compute the norm of a distribution?
+  pag. 4 in the Opinion Similarity paragraph: you define the opinion similarity in (7) as sim_{opinion}^t(O_1,O_2), 
+		but then in the text you use sim(O_1,O_2), please be consistent with the definition. I do not understand what d_i and v_i are in (7), 
+		please can you explain to me how they work using the example in the paper?
+  pag. 4 in the Subjectivity Similarity paragraph: you define the subjectivity similarity in (9). Please specify what m and u are.
+		In this (9) you are using the two functions defined in (6) and (8) with no parameters, please be consistent with the previous definition
+  pag. 4 in the Retweeting analysis paragraph: in this paragraph you use several times the sim_{sub} function but with parameters of different types
+		which is in contrast with the previous definitions
+  pag. 6, left: you introduce sim_all, please can you explain how it works?
+  pag. 6, right: the related work section can be moved after the introduction. This section sounds like a repetition to me since most of the papers
+		you are citing here are already be mentioned in the introduction
+  
+  MINOR COMMENTS:
+  
+  pag. 4, right: "samller"  --> "smaller"
+  pag. 4, right: "Sim_{sub}" --> "sim_{sub}"
+  pag. 4, right: "is the coefficient" --> "is a coefficient"
+  pag. 4 in the Dataset and experiment subsection: there are several problems with numbers. For instance "3,0876". Sometimes you use
+	the thousands separator some other no, for instance "5214" (pag. 4) and "5,214" (pag. 5)
+  pag. 5, left: "in Table 2, The bold-faced" --> "in Table 2. The bold-faced"
+  pag. 6, left: "TF-TDF" --> "TF-IDF"
+  pag. 6, right: "fisrtly" --> "firstly"
+  pag. 6, right: "simlarity" --> "similarity"
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 714
+TITLE: From Interests to Opinions: Modelling Subjectivity for Retweeting Analysis on Twitter
+AUTHORS: (anonymous)
+
+1. Technical Quality: 4 (positive, a factor in accepting the paper)
+2. Experimental analysis: 4 (positive, a factor in accepting the paper)
+3. Formal analysis: 4 (positive, a factor in accepting the paper)
+4. Clarity/presentation: 5 (ground-breaking (top 15%), a sufficient basis for accepting the paper)
+5. Novelty/innovation of question addressed: 4 (positive, a factor in accepting the paper)
+6. Novelty/innovation of application: 4 (positive, a factor in accepting the paper)
+7. Novelty/innovation with respect to aspects of human-level   intelligence, complex cognition, or similar topics (Cognitive  Systems): 4 (positive, a factor in accepting the paper)
+8. Novelty/innovation of solution proposed: 4 (positive, a factor in accepting the paper)
+9. Breadth of interest to the AI community: 4 (positive, a factor in accepting the paper)
+10. Potential for impact to practical applications: 4 (positive, a factor in accepting the paper)
+
+----------- QUALITY JUSTIFICATION -----------
+The paper is well written and clear. The goal of the paper is to understand different factors that motivate retweeting behavior. The original motivation is from psychological researchers, who have identified that, in addition to interests of users with topics, subjectivity would also help to understand retweeting behavior. To verify this claim, the authors present a novel subjectivity model that considers both topic and subjectivity. The experimental results in the paper support the authors’ claim that subjectivity similarity is correlated with retweeting behavior.
+
+----------- NOVELTY/INNOVATION JUSTIFICATION -----------
+The application is interesting and techniques used to address the problem are valid and somewhat novel. The algorithm used to construct subjectivity model has two phases: first, a topic model is constructed on the tweets extracted from the ego network, and then a sentiment score is assigned to each tweet using SentiStrength. The authors have not discussed what is the advantage of this algorithm compared to using Topic Sentiment Mixture (TSM) models (e.g., Qiaozhu Mei et al. 2007) where the mixture of topics and sentiments are captured *simultaneously*. Note, these techniques may outperform other approaches that model sentiment and topic separately. It may also be easier to get the overall sentiment strength for each topic and document/tweet. These techniques can potentially provide a more robust approach to measure topic and opinion similarities. If I have misinterpreted something here (e.g., the author’s technique may work better for Twitter data), please clarify.
+
+----------- IMPACT JUSTIFICATION -----------
+The paper targets a challenging problem and presents an interesting approach to solve the problem. The paper would be stronger if the authors explain how their approach differs from other approaches such as topic sentiment mixture models.
+
+----------- SUMMARY OF REVIEW FOR AUTHORS -----------
+Overall, I think the paper tackles a relevant problem and provides an interesting approach and evaluation. A minor concern is that the paper lacks comparison with some related work such as TSM models, which seem to be similar to the subjectivity model approach presented in the paper, but were not considered in the paper.
+
+
